@@ -71,6 +71,26 @@ Add File: <br/>
 <img src="https://i.imgur.com/HbYfod4.png" height="80%" width="80%" />
 <br />
 <br />
+Notice Destination settings are that of what we selected previously: <br/>
+<img src="https://i.imgur.com/vnhpdJx.png" height="80%" width="80%" />
+<br />
+<br />
+Scroll to "Properties" -> Keep storage "Standard": <br/>
+<img src="https://i.imgur.com/4gd39xS.png" height="80%" width="80%" />
+<br />
+<br />
+Under "Permissions" find your Access Control List (ACL) -> keep permissions to yourself "Object Owner": <br/>
+<img src="https://i.imgur.com/6TrKd3f.png" height="80%" width="80%" />
+<br />
+<br />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
 <img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
 <br />
