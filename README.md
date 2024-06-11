@@ -51,8 +51,24 @@ You have successfully created an AWS S3 Bucket <br/>
   - <b>https://aws.amazon.com/s3/
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+Now Upload Object to S3 and Manage Access using bucket Policies and ACLs -> First, click into your bucket: <br/>
+<img src="https://i.imgur.com/WEQmNNr.png" height="80%" width="80%" />
+<br />
+<br />
+Click "Create Folder" -> Give the folder a "name", keep encryption defualt -> click "Create Folder" <br/>
+<img src="https://i.imgur.com/T5uKRgR.png" height="80%" width="80%" />
+<br />
+<br />
+Click into your folder -> click "upload": <br/>
+<img src="https://i.imgur.com/3HHpINa.png" height="80%" width="80%" />
+<br />
+<br />
+Click "add files" <br/>
+<img src="https://i.imgur.com/1TP8MXj.png" height="80%" width="80%" />
+<br />
+<br />
+Add File: <br/>
+<img src="https://i.imgur.com/HbYfod4.png" height="80%" width="80%" />
 <br />
 <br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
