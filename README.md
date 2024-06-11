@@ -1,7 +1,7 @@
 # AWS-S3-Basics
 
 <h2>Description</h2>
-Project consists of downloading current operating system version of Wireshark. By the end of this lab, you will create S3 bucket and will be able upload content to the bucket. You will also enable Encryption, Versioning for S3 Bucket and will create Lifecycle management rule for objects in S3 Bucket.  You will also create a Static website using AWS S3.
+By the end of this lab, you will create S3 bucket and will be able upload content to the bucket. You will also enable Encryption, Versioning for S3 Bucket and will create Lifecycle management rule for objects in S3 Bucket.  You will also create a Static website using AWS S3.
 
 
 
@@ -10,25 +10,25 @@ Project consists of downloading current operating system version of Wireshark. B
 
 <h2>Operating System Used<h2>
 
-- <b>MacOS Monterey Version 12.7.4</b>
+- <b>WIndows 11 Home 13th Gen Intel(R) Core(TM) i7-1360P 2.20 GHz</b>
 
 <h2>Downloads<h2>
  
-- <b>[Wireshark 4.2.4 Intel](https://www.wireshark.org/)</b>
+- <b>[AWS](https://aws.amazon.com/free/?gclid=CjwKCAjwyJqzBhBaEiwAWDRJVLXvkQI5wJoWiiJhWEcL25WlnjIhO4V67lEnaaDeBi1qYFqEwQBZbBoCQFUQAvD_BwE&trk=fce796e8-4ceb-48e0-9767-89f7873fac3d&sc_channel=ps&ef_id=CjwKCAjwyJqzBhBaEiwAWDRJVLXvkQI5wJoWiiJhWEcL25WlnjIhO4V67lEnaaDeBi1qYFqEwQBZbBoCQFUQAvD_BwE:G:s&s_kwcid=AL!4422!3!432339156150!e!!g!!aws!1644045032!68366401852&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)</b>
 
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Download Wireshark: <br/>
-<img src="https://i.imgur.com/FVWrYiX.png" height="80%" width="80%" />
+Create an AWS account: <br/>
+<img src="https://i.imgur.com/xvH50D5.png" height="80%" width="80%" />
 <br />
 <br />
-Select source of capture: Wireless, Ethernet etc: <br/>
-<img src="https://i.imgur.com/00SfRUR.png" height="80%" width="80%" />
+Select the region of your liking: <br/>
+<img src="https://i.imgur.com/514Gq2W.pngg" height="80%" width="80%" />
 <br />
 <br />
-Upper left click -green- "sharkfin" to begin your capture: <br/>
-<img src="https://i.imgur.com/lbyR5hY.png" height="80%" width="80%" />
+Upper left of screen next to Services search "S3" and click on "Scalable Storage in the Cloud: <br/>
+<img src="https://i.imgur.com/SQrYHxE.png" height="80%" width="80%" />
 <br />
 <br />
 Stop your capture with -red- box and save to your file of choosing:  <br/>
