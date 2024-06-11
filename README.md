@@ -27,30 +27,44 @@ Select the region of your liking: <br/>
 <img src="https://i.imgur.com/514Gq2W.pngg" height="80%" width="80%" />
 <br />
 <br />
-Upper left of screen next to Services search "S3" and click on "Scalable Storage in the Cloud: <br/>
+Upper left of screen next to Services search "S3" and click on "Scalable Storage in the Cloud": <br/>
 <img src="https://i.imgur.com/SQrYHxE.png" height="80%" width="80%" />
 <br />
 <br />
-Stop your capture with -red- box and save to your file of choosing:  <br/>
-<img src="https://i.imgur.com/UN55BQU.png" height="80%" width="80%" />
+Click "Create Bucket" -> give bucket a "name" -> keep Object Ownership to "ACLs disabled":  <br/>
+<img src="https://i.imgur.com/fyNgiJn.png" height="80%" width="80%" />
 <br />
 <br />
-Use a display filter to detect HTTPS packets:  <br/>
- ●To display certain packets in an existing packet capture, use a display filter <br/>
- ●To display only HTTPS traffic, use a filter on TCP port 443: tcp.port == 443 <br/>
-<img src="https://i.imgur.com/W2nbWQN.png" height=80%" width="80%" />
+Block all public access:  <br/>
+<img src="https://i.imgur.com/Zc1RHDZ.png" height=80%" width="80%" />
 <br />
 <br />
-Use a display filter to detect DNS (Domain Name System)if websites and subsites visited:  <br/>
-<img src="https://i.imgur.com/2xEq9cr.png" height="80%" width="80%" />
+Bucket Versioning "disabled" -> Give Tags Key "name" and Value "name" -> keep default encryption -> click "create bucket":  <br/>
+<img src="https://i.imgur.com/rFVeO28.png" height="80%" width="80%" />
 <br />
  - <b>https://wiki.wireshark.org/DisplayFilters
+<br />
+<br />
+You have successfully created an AWS S3 Bucket <br/>
+<img src="https://i.imgur.com/wyrx2uS.png" height="80%" width="80%" />
+<br />
+  - <b>https://aws.amazon.com/s3/
 <br />
 <br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
 <img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
 <br />
 <br />
-●A Conditional statement may be used to include and eliminate packets from a Wireshark capture: !(ip.addr == 8.43.85.97) and tcp.port == 443
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
 
-●A compound conditional should include parentheses to avoid order of execution errors: !(ip.addr == 8.43.85.97) and (tcp.port == 80 or tcp.port == 443)
