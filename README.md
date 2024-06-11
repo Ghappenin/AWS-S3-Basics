@@ -42,8 +42,6 @@ Block all public access:  <br/>
 Bucket Versioning "disabled" -> Give Tags Key "name" and Value "name" -> keep default encryption -> click "create bucket":  <br/>
 <img src="https://i.imgur.com/rFVeO28.png" height="80%" width="80%" />
 <br />
- - <b>https://wiki.wireshark.org/DisplayFilters
-<br />
 <br />
 You have successfully created an AWS S3 Bucket <br/>
 <img src="https://i.imgur.com/wyrx2uS.png" height="80%" width="80%" />
@@ -79,20 +77,20 @@ Scroll to "Properties" -> Keep storage "Standard": <br/>
 <img src="https://i.imgur.com/4gd39xS.png" height="80%" width="80%" />
 <br />
 <br />
-Under "Permissions" find your Access Control List (ACL) -> keep permissions to yourself "Object Owner": <br/>
+Under "Permissions" find your Access Control List (ACL) -> keep permissions to yourself "Object Owner" -> Click "Upload": <br/>
 <img src="https://i.imgur.com/6TrKd3f.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+To verify download was successful click into the file -> upper right click "open" your image/file should open<br/>
+<img src="https://i.imgur.com/G4s2UEB.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+If you attempt to open with "Object URL" you will get this screen -> When bucket was created we did so with "NO" public access <br/>
+<img src="https://i.imgur.com/iCVddRW.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+To change this go back to "bucket" -> click "Permissions" -> Unclick "block all public access" -> Save changes -> "Confirm" <br/>
+<img src="https://i.imgur.com/Ugpct9z.png" height="80%" width="80%" />
 <br />
 <br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
