@@ -97,7 +97,33 @@ To change encryption move over to the "properties" tab -> choose between "SSE-S3
 <img src="https://i.imgur.com/9u23d0r.png" height="80%" width="80%" />
 <br />
    -As of January 5th, 2023 all object uploads to S3 are automatically encrypted at no extra cost.
-   
+<br /> 
+  - <b>https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html
+<br />
+<br />
+To add bucket policy for bucket with no encryption navigate over to the "permissions" and select "edit" -> "policy generator" <br/>
+<img src="https://i.imgur.com/5FgE9AF.png" height="80%" width="80%" />
+<br />
+<br />
+In generator change type to "S3" -> Deny -> Principal= "*" -> Action "Putobject" -> copy ARN from previous page and paste<br/>
+<img src="https://i.imgur.com/YmgMLs2.png" height="80%" width="80%" />
+<br />
+<br />
+Add Condition -> "Stringnotequals" ->  <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
+<br />
+Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
+<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+<br />
 <br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
 <img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
