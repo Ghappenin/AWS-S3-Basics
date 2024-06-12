@@ -93,9 +93,11 @@ To change this go back to "bucket" -> click "Permissions" -> Unclick "block all 
 <img src="https://i.imgur.com/Ugpct9z.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+To change encryption move over to the "properties" tab -> choose between "SSE-S3", "SSE-KMS" or "DSSE-KMS" <br/>
+<img src="https://i.imgur.com/9u23d0r.png" height="80%" width="80%" />
 <br />
+   -As of January 5th, 2023 all object uploads to S3 are automatically encrypted at no extra cost.
+   
 <br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
 <img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
