@@ -125,8 +125,5 @@ Paste JSON document  <br/>
 <img src="https://i.imgur.com/RmH9VNE.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
-<br />
-<br />
+
 
