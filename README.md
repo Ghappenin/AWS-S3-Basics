@@ -1,7 +1,7 @@
 # AWS-S3-Basics
 
 <h2>Description</h2>
-By the end of this lab, you will create a S3 bucket, upload content to the bucket, enable Encryption and create a bucket policy.
+By the end of this lab, you will create a S3 bucket, upload content, enable Encryption, and manage access with ACLs and a bucket policy.
 
 
 
