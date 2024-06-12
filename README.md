@@ -1,7 +1,7 @@
 # AWS-S3-Basics
 
 <h2>Description</h2>
-By the end of this lab, you will create S3 bucket and will be able upload content to the bucket. You will also enable Encryption, Versioning for S3 Bucket and will create Lifecycle management rule for objects in S3 Bucket.  You will also create a Static website using AWS S3.
+By the end of this lab, you will create a S3 bucket, upload content to the bucket, enable Encryption and create a bucket policy.
 
 
 
@@ -101,7 +101,7 @@ To change encryption move over to the "properties" tab -> choose between "SSE-S3
   - <b>https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html
 <br />
 <br />
-To add bucket policy for bucket with no encryption navigate over to the "permissions" and select "edit" -> "policy generator" <br/>
+To add bucket policy for object upload with no encryption navigate over to the "permissions" and select "edit" -> "policy generator" <br/>
 <img src="https://i.imgur.com/5FgE9AF.png" height="80%" width="80%" />
 <br />
 <br />
@@ -109,20 +109,20 @@ In generator change type to "S3" -> Deny -> Principal= "*" -> Action "Putobject"
 <img src="https://i.imgur.com/YmgMLs2.png" height="80%" width="80%" />
 <br />
 <br />
-Add Condition -> "Stringnotequals" ->  <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+Add Condition -> "StringNotEquals" -> Key= "server-side" -> Value= "AWS:KMS" -> add condition -> add statement -> generate policy  <br/>
+<img src="https://i.imgur.com/BgfqwyV.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+Copy the JSON document <br/>
+<img src="https://i.imgur.com/886NEDj.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+Paste JSON document  <br/>
+<img src="https://i.imgur.com/B7r3eOW.png" height="80%" width="80%" />
 <br />
 <br />
-Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
-<img src="https://i.imgur.com/LoPi1bu.png" height="80%" width="80%" />
+ Add a "/*" to the end or resource line -> save changes... any upload of an object not encrypted will now fail <br/>
+<img src="https://i.imgur.com/RmH9VNE.png" height="80%" width="80%" />
 <br />
 <br />
 Visit a web page and detect its IP address using a display filter. A TLS handshake display filter: tls.handshake.type ==1 <br/>
